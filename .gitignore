@@ -187,3 +187,5 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+/.vs/EntityFrameworkRepository/v15/Server/sqlite3
+/.vs/EntityFrameworkRepository/v16/Server/sqlite3

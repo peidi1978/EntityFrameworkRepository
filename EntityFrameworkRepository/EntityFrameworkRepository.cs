@@ -18,6 +18,11 @@ namespace EntityFrameworkRepository
         protected readonly DbContext dataContext;
         private bool disposed = false;
 
+        public EntityFrameworkRepository()//for unit test purposes
+        {
+           
+        }
+
         public EntityFrameworkRepository(DbContext ctx)
         {
             dataContext = ctx;
